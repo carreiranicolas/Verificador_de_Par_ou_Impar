@@ -3,9 +3,9 @@ while True:
     try:
         numero = int(input("Informe um número que você quer verificar: "))
         if numero % 2 == 0:
-            print("O número é PAR!")
+            print(f"O número {numero} é PAR!")
         else:
-            print("O número é IMPAR!")
+            print(f"O número {numero} é IMPAR!")
         break
     
     except:
